@@ -9,7 +9,7 @@ def speak(text):
     engine.runAndWait()
 
 def get_weather(city_name):
-    api_key = "openweathermap_api_key" #api laga le
+    api_key = "openweathermap_api_key" #use your own api key here
     base_url = "https://api.openweathermap.org/data/2.5/weather"
 
     params = {
